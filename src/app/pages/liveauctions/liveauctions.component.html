@@ -1,0 +1,27 @@
+<section>
+    <div class="w3-container w3-left-align"><h3>Live Auctions</h3></div>
+
+    <div class="col-md-12">
+        <div class="col-md-3 w3-padding-16" *ngFor="let item of bids">
+          <div class="w3-card-2 w3-center w3-padding-16 main-card">
+            <div class="header w3-container">
+              {{item.name}}
+            </div>
+            <img src="{{item.img}}">
+    
+            <div class="w3-container w3-center content">
+              <h4>ksh {{item.price}}  </h4>
+              
+              <h3>01:00:00</h3>
+            </div>
+        
+        
+            <div class="w3-container footer">
+                <button class="w3-button w3-khaki">Bid Now</button>
+            </div>
+        
+        </div>
+        </div>
+        </div>
+
+</section>

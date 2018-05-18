@@ -1,0 +1,11 @@
+.main-card{
+    height:400px;
+
+}
+.footer {
+    position: relative;
+    bottom:0;
+}
+.content {
+    height:25%;
+}
